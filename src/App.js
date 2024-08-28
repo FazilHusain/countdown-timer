@@ -45,7 +45,7 @@ function App() {
   };
   
 
-  const runTimer = () => {
+  const runTimer = (hours,mins, secs, tid) => {
    if(secs > 0){
     setSecs((s) => s-1)
    }
